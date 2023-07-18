@@ -1,0 +1,49 @@
+BASIC GIT COMMANDS:
+-> git init //To initialize git repository
+-> git status //to check status of tracked/untracked files
+-> git add . / git add <filename> // to bring the file from unstage to staging area
+-> git commit -m "<message>" // to commit the changes 
+-> git restore --staged <filename> // to to unstage a file 
+-> git log //to see the commit history
+-> git reset <id> //to remove all the above commits of id you select
+-> git stash // to get the files on backstage without creating a history in git
+-> git stash pop // to get the changes from backstage to on stage
+-> git stash clear // to clear the stash history
+
+GITHUB COMMANDS:
+-> git remote add origin <repository url> // to set origin to local folder to hosting it on github
+-> git remote -v // to check all the attached url's to your github
+-> git push origin main/<branch> //to push the local changes to github
+
+BRANCHING:
+-> git branch <branch name> // creates a branch
+-> git checkout <branch name> // to switch to that branch or move the head to that branch
+-> git merge <branch name> // to merge branch with side by side with main
+
+CLONING A REPOSITORY:
+-> git clone <repository url> // clone github repository to your local system
+
+UPSTREAM COMMANDS:
+-> git remote add upstream <url> // url from where you have forked it
+-> git fetch --all --prune // fetch all branches also deleted ones
+-> git checkout main
+-> git reset --hard upstream/main 
+-> git push origin main
+-> git pull upstream main
+-> git push origin main 
+
+SQUASHING COMMITS:
+-> git rebase -i <git log url> 
+pick/squash
+
+GIT REBASE: (moves a branch from one commit to another)
+-> git fetch origin 
+-> git rebase origin/main
+-> git pull --rebase origin main
+
+
+
+
+
+
+
