@@ -22,3 +22,4 @@ public class Functions_Methods {
         return sum;
     }
 }
+
