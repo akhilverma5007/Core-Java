@@ -1,3 +1,4 @@
+package properties.inheritance;
 public class Box { //Super-> Parent Class of all
     String name;
     int marks;

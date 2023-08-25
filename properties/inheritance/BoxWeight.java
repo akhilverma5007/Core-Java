@@ -1,3 +1,4 @@
+package properties.inheritance;
 public class BoxWeight extends Box{
 
     int total;
