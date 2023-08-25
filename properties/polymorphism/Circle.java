@@ -1,6 +1,6 @@
 package properties.polymorphism;
 
-public class Circle {
+public class Circle extends Shapes{
     void area(){
         System.out.println("You are in Circle. ");
     }
