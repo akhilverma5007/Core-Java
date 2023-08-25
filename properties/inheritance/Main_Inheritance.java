@@ -1,3 +1,4 @@
+package properties.inheritance;
 public class Main_Inheritance {
     public static void main(String[] args) {
         Inheritance inher = new Inheritance(5,4,5);

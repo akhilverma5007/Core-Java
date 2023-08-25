@@ -1,3 +1,4 @@
+package properties.inheritance;
 public class Inheritance_Weight extends Inheritance {
     double weight;
 

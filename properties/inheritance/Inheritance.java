@@ -1,3 +1,4 @@
+package properties.inheritance;
 public class Inheritance {  //PARENT 
     double l;
     double h;
